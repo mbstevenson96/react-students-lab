@@ -1,7 +1,7 @@
 const Score = (props) => {
   return (
     <>
-      <h3>This is the score component</h3>
+      <h3>{props.studentName} scored {props.score.score}</h3>
     </>
   );
 }
