@@ -1,7 +1,7 @@
 const Score = (props) => {
   return (
     <>
-      <h3>{props.studentName} scored {props.score.score}</h3>
+      <h3>Scored {props.score.score} on {props.score.date}</h3>
     </>
   );
 }
